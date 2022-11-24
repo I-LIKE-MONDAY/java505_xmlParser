@@ -32,6 +32,9 @@ dependencies {
 	implementation 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.3'
 // https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl
 	implementation 'com.sun.xml.bind:jaxb-impl:2.3.3'
+	// https://mvnrepository.com/artifact/com.google.code.gson/gson
+	implementation 'com.google.code.gson:gson:2.10'
+
 }
 
 tasks.named('test') {
