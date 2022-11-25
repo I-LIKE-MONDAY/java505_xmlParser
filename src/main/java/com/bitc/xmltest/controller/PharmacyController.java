@@ -64,10 +64,10 @@ public class PharmacyController {
   public Object getFullDataAjax(@RequestParam("pageNo") int pageNo,  @RequestParam("itemQty") int itemQty) throws Exception {
 
 //    open api 서버로 요청하기 위한 url 생성
-    String reqService = "/getParmacyFullDown"; // 끝에 물음표 붙이기
-    String service = "?serviceKey=";
-    String option1 = "&pageNo=";
-    String option2 = "&numOfRows=";
+    String reqService = "/getParmacyFullDown";
+    String service = "?serviceKey="; // ? 붙이기
+    String option1 = "&pageNo="; // & 붙이기
+    String option2 = "&numOfRows="; // & 붙이기
 
 
 
